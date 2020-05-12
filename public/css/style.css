@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'Vazir';
+	src: url('fonts/Vazir-Light-FD-WOL.eot'); /* IE9 Compat Modes */
+	src: url('fonts/Vazir-Light-FD-WOL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/Vazir-Light-FD-WOL.woff2') format('woff2'), /* Super Modern Browsers */
+	url('fonts/Vazir-Light-FD-WOL.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/Vazir-Light-FD-WOL.ttf')  format('truetype');
+}
+
+body{
+	direction: rtl;
+	text-align: right;
+	background: rgb(244,243,255);
+	background: linear-gradient(90deg, rgba(244,243,255,1) 0%, rgba(174,173,255,1) 11%, rgba(115,115,255,1) 47%, rgba(115,121,255,1) 65%, rgba(241,253,255,1) 100%);
+}
+.topStudent{
+	text-align: center;
+	width:16.67%;
+	background: #e3e3e3;
+	padding: 15px;
+	margin: 15px;
+	max-height: 100px;
+}
+.topUl li a{
+	background: rgba(130, 170, 214, 0.25);
+	padding: 15px;
+	font-family: 'Vazir';
+	font-size: 15px;
+	color: #fff3cd !important;
+	text-shadow: 1px 1px 1px #000000;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.topUl li a:link{
+	text-decoration: none;
+}
+.topUl li a:visited{
+	text-decoration: none;
+	color: #fff3cd !important;
+}
+.topUl li a:hover{
+	margin-right: 5px;
+	background:#6ca8e8;
+}
+.leftSideBar .nav-tabs li a{
+    font-family: Vazir;
+    color: #fff3cd;
+    padding: 10px;
+    background: #0f6674;
+}
+.tab-content ul {
+    list-style: none;
+    padding: 10px;
+    color: #ffffff;
+
+}
+.leftSideBar .nav-tabs {
+    border-bottom: none;
+}
+.login-container{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.login-form-1{
+	padding: 5%;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+	text-align: center;
+	color: #333;
+}
+.login-form-2{
+	padding: 5%;
+	background: #0062cc;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+	text-align: center;
+	color: #fff;
+}
+.login-container form{
+	padding: 10%;
+}
+.btnSubmit
+{
+	width: 50%;
+	border-radius: 1rem;
+	padding: 1.5%;
+	border: none;
+	cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+	font-weight: 600;
+	color: #fff;
+	background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+	font-weight: 600;
+	color: #0062cc;
+	background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+	color: #0062cc;
+	font-weight: 600;
+	text-decoration: none;
+}
+#std-err-box{
+	display: none;
+}#master-err-box{
+	display: none;
+}
+
+#footer {
+	background: #313a3f;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.125);
+	color: #fff;
+	font-size: .7875rem;
+	display: block;
+}
+#footer_inner {
+	padding-top: 1rem;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	display: block!important;
+}
+.footer-line {
+	font-size: inherit;
+	line-height: 3;
+}

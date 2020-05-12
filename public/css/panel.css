@@ -1,0 +1,33 @@
+.eModal{
+	max-width: 700px;
+}
+.remPd{
+	box-shadow: 1px 1px 0px 1px #0000004f !important;
+	background: #ffffff;
+}
+.remPd .td-actions .btn {
+	padding: 5px 6px 6px 5px;
+
+}
+/***
+Bootstrap4 Card with Tabs by @mdeuerlein
+***/
+.searchBoxHolder{
+	margin: 0.8rem;
+}
+ .nav-tabs > li{
+	padding: 8px;
+	 background: #ff3738;
+	 -webkit-border-radius: 10px;
+	 -moz-border-radius: 10px;
+	 border-radius: 10px;
+	 margin-right: 5px;
+	 text-align: center;
+}
+.nav-tabs > li a{
+	color: #fefff9;
+}
+.abs{
+    position: absolute;
+    left: 20%;
+}
